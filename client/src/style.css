@@ -1,0 +1,73 @@
+.hover-text:hover {
+    border-bottom: 1px solid;
+}
+
+.emailModal {
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 500px;
+    min-height: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    z-index: 99;
+}
+
+.confirmModal {
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 300px;
+    min-height: 100px;
+    margin: 0 auto;
+    padding: 30px;
+    z-index: 99;
+}
+
+.myBackdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 60px;
+    z-index: 99;
+}
+
+.closeButton:hover {
+    background-color: #e53935 !important;
+}
+
+.diagram-container {
+    width: 45%;
+    float: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .diagram-container {
+        width: 100%;
+    }
+
+    #statisticForm {
+        display: block;
+    }
+}
+
+.google-picture {
+    max-height: 150px;
+}
+
+.card-content p span {
+    font-weight: 600;
+}
+
+.top-table {
+    width: 95%;
+}
+
+@media only screen and (min-width: 690px) {
+    .top-table .col.l6,
+    .top-table .col.m6 {
+        width: 48%;
+        margin-left: 10px;
+    }
+}
